@@ -3,17 +3,29 @@ import Todo from '../assets/todo.png'
 import NotesApp from '../assets/notes.jpg'
 import Ecommerce from '../assets/e-commerce.jpg'
 import { FaGithub } from 'react-icons/fa'
+import Dashboard from '../assets/Dashboard.png'
+import Rewardify from '../assets/Rewardify.png'
+import coming from '../assets/coming.jpg'
 
 const Project = () => {
     const projects = [
         {
-          title: "TODO_MERN",
+          title: "WEHR",
           description:
-            "Efficient Task Management: Users can add, update, complete, and delete tasks easily.",
-          techStack: ["React.js", "MongoDB", "Node.js", "Tailwind CSS", "Express.js"],
-          link: "https://mern-todo-frontend-q6as.onrender.com/",
-          github: 'https://github.com/Suganth-Dev/mern_todo_org',
-          image: Todo, 
+            "Dashboard Design: Users can add, update, complete, and delete tasks easily.",
+          techStack: ["React.js",  "Tailwind CSS",],
+          link: "https://wehr.onrender.com",
+          github: 'https://github.com/Suganth-Dev/WeHr',
+          image: Dashboard, 
+        },
+        {
+          title: "REWARDIFY",
+          description:
+            "Store App: [Currently working on....]",
+          techStack: ["React.js",  "Tailwind CSS", ],
+          link: "https://rewardify-q3j5.onrender.com/",
+          github: 'https://github.com/Suganth-Dev/Rewardify',
+          image: Rewardify, 
         },
         {
           title: "NOTES_MERN",
@@ -25,6 +37,15 @@ const Project = () => {
           image: NotesApp,
         },
         {
+          title: "TODO_MERN",
+          description:
+            "Efficient Task Management: Users can add, update, complete, and delete tasks easily.",
+          techStack: ["React.js", "MongoDB", "Node.js", "Tailwind CSS", "Express.js"],
+          link: "https://mern-todo-frontend-q6as.onrender.com/",
+          github: 'https://github.com/Suganth-Dev/mern_todo_org',
+          image: Todo, 
+        },
+        {
           title: "E-COMMERCE_REACT",
           description:
             "I built this website out of personal interest and to meet the needs of my mobile shop. This platform serves as a standard product purchasing website.",
@@ -32,6 +53,13 @@ const Project = () => {
           link: "https://suganth-dev.github.io/S-S_Techayo-shop/",
           github: 'https://github.com/Suganth-Dev/S-S_Techayo-shop',
           image: Ecommerce, 
+        },
+         {
+         
+          techStack: ["MERN STACK"],
+          
+     
+          image: coming, 
         },
         
       ];

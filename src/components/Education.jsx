@@ -27,9 +27,16 @@ const education = [
     
     {
       role: "R&D Technical Engineer(Product Development)",
-      company: "Insta 3D Technologies",
-      year: "2022-2024",
+      company: "Insta 3D Technologies [Coimbatore]",
+      year: "JAN-2022 to OCT-2024",
       description: "I am in the product development department and 3D printing service. ",
+      icon: "💻",
+    },
+    {
+      role: "React Developer",
+      company: "DOTCOD Innovation PVT [Bangalore]",
+      year: "DEC-2024 to JUN-2025",
+      description: " My role isthey give the client a Figma design. I create the same as a website inReact.",
       icon: "💻",
     },
   ];

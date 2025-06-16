@@ -9,7 +9,7 @@ import "../Css/Hero.css"
 const Hero = () => {
 
   const config = {
-    link: 'https://drive.google.com/file/d/12Ns5-k7KLVXM8RaTQrFhmPIY-19bXu7F/view?usp=sharing'
+    link: 'https://drive.google.com/file/d/1Hkny3DV2Q4HAUfx44YM3JjdqEqQAohm0/view'
 }
   return (
 
